@@ -87,3 +87,49 @@
     font-size: 16px;
     color: #c1c1c1;
 }
+.donate-plan{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.donate-plan>h1{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.donate-plan>p{
+    max-width: 570px;
+    margin: 0 auto 50px;
+    color: #7b7b7b;
+}
+.plan-section{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.plan-section>div{
+    max-width: 320px;
+    max-height: 315px;
+    text-align: left;
+    padding: 50px 30px 50px 15px;
+    border-radius: 5px;
+}
+.plan-1{
+    background-color: #edf5f6;
+    margin-right: 20px;
+}
+.plan-2{
+    background-color: #ffeeee;
+    margin-right: 20px;
+}
+.plan-3{
+    background-color: #fff4d6;
+}
+.plan-img{
+    margin-bottom: 30px;
+}
+.plan-title{
+    margin-bottom: 20px;
+}

@@ -3,6 +3,9 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
+:root{
+    --description-font-color: #7b7b7b;
+}
 .banner{
     display: table-cell;
     width: 100%;
@@ -102,7 +105,7 @@
 .donate-plan>p{
     max-width: 570px;
     margin: 0 auto 50px;
-    color: #7b7b7b;
+    color: var(--description-font-color);
 }
 .plan-section{
     display: flex;
@@ -132,4 +135,114 @@
 }
 .plan-title{
     margin-bottom: 20px;
+}
+.plan-describe{
+    color: var(--description-font-color);
+}
+.contribution-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 85px;
+}
+.contribute-div{
+    max-height: 430px;
+    max-width: 520px;
+    margin-right: 60px;
+}
+.contribute-div>h2{
+    font-weight: bolder;
+    font-size: 44px;
+    margin-bottom: 15px;
+}
+.contribute-div>p{
+    color: var(--description-font-color);
+    max-width: 420px;
+}
+.contribute-div>button{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.contribute-img-1, .contribute-img-2{
+    height: 430px;
+    width: 430px;
+    background-size: cover;
+    border-radius: 5px;
+}
+.contribute-img-1{
+    background-image: url(./images/donation6.jpg);
+}
+.contribute-img-2{
+    background-image: url(./images/donation3.jpg);
+    margin-right: 0;
+}
+.adjust{
+    margin-left: 150px;
+}
+.update-section{
+    text-align: center;
+}
+.update-section>h2{
+    font-weight: bolder;
+    font-size: 36px;
+}
+.update-section>p{
+    color: var(--description-font-color);
+    max-width: 570px;
+    margin: auto;
+}
+.subscribe-section{
+    height: 180px;
+    width: 730px;
+    background-color: #fff4d6;
+    margin: 45px auto 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sub-btn{
+    padding: 10px 35px;
+    border-radius: 0px;
+    margin-left: -5px;
+    height: 43px;
+    border-radius: 0px 5px 5px 0px;
+
+}
+.subscribe-section>input{
+    height: 43px;
+    width: 250px;
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+::placeholder{
+    text-align: left;
+    padding-left: 10px;
+    color: #aa9f9f;
+    font-size: 14px;
+}
+footer{
+    height: 160px;
+    width: 100%;
+    background-color: #000000;
+    position: relative;
+}
+footer>div{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.footer-title{
+    font-size: 26px;
+    font-style: italic;
+    color: red;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.footer-sub-title{
+    color: var(--description-font-color);
+    text-align: center;
+    font-size: 14px;
 }
